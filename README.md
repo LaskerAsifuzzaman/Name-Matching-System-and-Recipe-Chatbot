@@ -1,4 +1,4 @@
-# Bookxpert AIML Assignment  
+# Bookxpert AI/ML Assignment  
 ## Name Matching System & Recipe Chatbot (FastAPI + Docker)
 
 ---
@@ -125,8 +125,6 @@ The Name Matching System identifies the most similar person names from a predefi
 
 ### API Endpoint
 
-#### Sample Request
-
 
 #### Sample Request
 
@@ -149,6 +147,8 @@ The Name Matching System identifies the most similar person names from a predefi
   ]
 }
 ```
+### Output
+![Demo Image](output/name-matching.png)
 
 
 ## 🔹 Task 2 – Recipe Chatbot
