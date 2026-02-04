@@ -180,6 +180,10 @@ It is implemented as a REST API and supports an optional local LLM fallback.
 POST /api/recipe
 ```
 
+### Output
+![Demo Image](output/recipe-chatbot.png)
+
+
 #### Sample Request
 ```
 {
