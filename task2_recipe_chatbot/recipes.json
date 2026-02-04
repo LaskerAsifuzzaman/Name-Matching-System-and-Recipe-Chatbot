@@ -1,0 +1,24 @@
+[
+  {
+    "ingredients": ["egg", "onion"],
+    "recipe": {
+      "name": "Egg Onion Omelette",
+      "steps": [
+        "Beat eggs in a bowl",
+        "Add chopped onions, salt, and pepper",
+        "Cook on medium heat until golden"
+      ]
+    }
+  },
+  {
+    "ingredients": ["potato", "onion"],
+    "recipe": {
+      "name": "Aloo Bhaja",
+      "steps": [
+        "Slice potatoes and onions",
+        "Fry in oil with salt and turmeric",
+        "Cook until crispy"
+      ]
+    }
+  }
+]
