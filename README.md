@@ -75,6 +75,35 @@ Business Logic Layer
 
 ---
 
+## 📁 Project Structure
+```
+bookxpert-aiml-assignment/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── Dockerfile
+├── docker-compose.yml
+├── .gitignore
+│
+├── task1/
+│   ├── __init__.py
+│   └── api.py
+│
+├── task2/
+│   ├── __init__.py
+│   ├── api.py
+│   ├── service.py
+│   └── llm.py
+│
+├── data/
+│   └── recipes.json
+│
+└── models/
+    └── .gitkeep
+```
+---
+
 ## 🔹 Task 1 – Name Matching System
 
 ### Description
@@ -181,34 +210,6 @@ POST /api/recipe
 
 - Optional
 Local LLM via ```llama-cpp-python```
-
-## 📁 Project Structure
-```
-bookxpert-aiml-assignment/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── Dockerfile
-├── docker-compose.yml
-├── .gitignore
-│
-├── task1/
-│   ├── __init__.py
-│   └── api.py
-│
-├── task2/
-│   ├── __init__.py
-│   ├── api.py
-│   ├── service.py
-│   └── llm.py
-│
-├── data/
-│   └── recipes.json
-│
-└── models/
-    └── .gitkeep
-```
 
 ## 🚀 Running the Application (Without Docker)
 
